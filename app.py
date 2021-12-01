@@ -4,7 +4,7 @@ import requests
 import json
 
 def make_request(uploaded_file, bytes_data):
-    url = "https://www.bikehunt.cc/api/predict"
+    url = "https://bikehuntapi.herokuapp.com/api/predict"
     payload={}
     files=[('file',(uploaded_file.name,bytes_data,'image/jpeg'))]
     headers = {}
