@@ -11,7 +11,7 @@ def make_request(uploaded_file, bytes_data):
     response = requests.request("POST", url, headers=headers, data=payload, files=files)
     return response
 
-st.title("BikeHunt 🚵‍♂️")
+st.title("BikeHunt 🚵‍♂️ Early Demo")
 st.subheader("Upload + Classification Example")
 
 uploaded_file = st.file_uploader("Choose an image...", type=['png', 'jpg'])
